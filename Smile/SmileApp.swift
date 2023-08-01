@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SmileApp: App {
+    @StateObject var appData = ApplicationData()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appData)
         }
     }
 }
