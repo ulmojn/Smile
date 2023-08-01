@@ -34,21 +34,19 @@ struct ContentView: View {
     @EnvironmentObject var appData: ApplicationData
     
     var body: some View {
-        ScrollView(showsIndicators: false){
-            LazyVStack{
-                ForEach(appData.userData) { room in
-                    VStack(alignment: .leading){
-                        Text(String(room.number)).font(.system(size: 80))
-                    }
-                }
-                Spacer()
-            }
+        List(appData.userData) { room in
+            CellRoom(room: room)
         }
-
     }
 }
 struct CellRoom: View{
     let room: RoomViewModel
+    
+    var body: some View {
+        VStack(alignment: .leading){
+            Text(String(room.number)).font(.system(size: 80))
+        }
+    }
 }
 
 
