@@ -29,7 +29,7 @@ class ApplicationData: ObservableObject {
         userData = [RoomViewModel(room: Room(number: 1, marks: 1)), RoomViewModel(room: Room(number: 2, marks: 0)), RoomViewModel(room: Room(number: 3, marks: 0)), RoomViewModel(room: Room(number: 4, marks: 0)), RoomViewModel(room: Room(number: 5, marks: 0)), RoomViewModel(room: Room(number: 6, marks: 0)), RoomViewModel(room: Room(number: 7, marks: 0)), RoomViewModel(room: Room(number: 8, marks: 0)), RoomViewModel(room: Room(number: 9, marks: 0)), RoomViewModel(room: Room(number: 10, marks: 2))]
     }
 }
-
+ 
 struct ContentView: View {
     @EnvironmentObject var appData: ApplicationData
     

@@ -24,6 +24,6 @@ struct DetailView_Previews: PreviewProvider {
         NavigationStack {
             DetailView(room: ApplicationData().userData[0])
         }
-        
+         
     }
 }
