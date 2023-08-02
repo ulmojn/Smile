@@ -12,8 +12,9 @@ struct DetailView: View {
     
     var body: some View {
         VStack{
-            Text(String(room.room.marks))
+            Text(String(room.number))
                 .font(.title)
+            Text(String(room.room.marks))
         }.padding()
             .navigationTitle("Detaljer")
     }
