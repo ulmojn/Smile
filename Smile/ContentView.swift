@@ -44,11 +44,11 @@ struct ContentView: View {
     }
 }
 struct CellRoom: View{
-    let room: RoomViewModel
+    let room: Response
     
     var body: some View {
         VStack(alignment: .leading){
-            Text(String(room.number)).font(.system(size: 80))
+            Text(String(room.rooms.number)).font(.system(size: 80))
         }
     }
 }
