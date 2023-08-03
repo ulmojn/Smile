@@ -12,6 +12,7 @@
 		F5509C3E2A792D5100F3777E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5509C3D2A792D5100F3777E /* Assets.xcassets */; };
 		F5509C412A792D5100F3777E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5509C402A792D5100F3777E /* Preview Assets.xcassets */; };
 		F5509C482A7A53FE00F3777E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5509C472A7A53FE00F3777E /* DetailView.swift */; };
+		F5509C4D2A7AABB800F3777E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5509C4C2A7AABB800F3777E /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F5509C3D2A792D5100F3777E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5509C402A792D5100F3777E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5509C472A7A53FE00F3777E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F5509C4C2A7AABB800F3777E /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		F5509C382A792D4F00F3777E /* Smile */ = {
 			isa = PBXGroup;
 			children = (
+				F5509C492A7AAB6B00F3777E /* RestAPI */,
 				F5509C392A792D4F00F3777E /* SmileApp.swift */,
 				F5509C3B2A792D4F00F3777E /* ContentView.swift */,
 				F5509C472A7A53FE00F3777E /* DetailView.swift */,
@@ -68,6 +71,14 @@
 				F5509C402A792D5100F3777E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5509C492A7AAB6B00F3777E /* RestAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F5509C4C2A7AABB800F3777E /* Date.swift */,
+			);
+			path = RestAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 				F5509C3C2A792D4F00F3777E /* ContentView.swift in Sources */,
 				F5509C482A7A53FE00F3777E /* DetailView.swift in Sources */,
 				F5509C3A2A792D4F00F3777E /* SmileApp.swift in Sources */,
+				F5509C4D2A7AABB800F3777E /* Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
